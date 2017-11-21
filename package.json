@@ -1,0 +1,23 @@
+{
+  "name": "kaiosilveira.com",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiosilveira/kaiosilveira.com.git"
+  },
+  "author": "Kaio Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiosilveira/kaiosilveira.com/issues"
+  },
+  "homepage": "https://github.com/kaiosilveira/kaiosilveira.com#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
