@@ -7,5 +7,5 @@ app.use(express.static('./public'));
 http
 .createServer(app)
 .listen(3000, function() {
-  console.log('Server running at 3000');
+  console.log('Server running at 8080');
 });
