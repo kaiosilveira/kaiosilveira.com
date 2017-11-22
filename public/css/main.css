@@ -49,7 +49,7 @@ body {
 }
 
 .avatar {
-  width: 230px;
+  width: 200px;
   height: 250px;
   border-radius: 3%;
   display: block;
@@ -77,6 +77,11 @@ body {
   clear: both;
   font-size: 20px;
   text-align: justify;
+}
+
+.section-reverse {
+  background-color: #272626;
+  color: #fff;
 }
 
 .subtitle {
@@ -215,4 +220,12 @@ a .head-icon, a .head-icon:hover, a .head-icon:visited {
 
 .label {
   margin-right: 6px;
+}
+
+.icon-wrapper {
+  text-decoration: none;
+}
+
+.icon-wrapper:hover {
+  text-decoration: none;
 }
