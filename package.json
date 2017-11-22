@@ -19,5 +19,11 @@
   "homepage": "https://github.com/kaiosilveira/kaiosilveira.com#readme",
   "dependencies": {
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-minify": "^2.1.0"
   }
 }
