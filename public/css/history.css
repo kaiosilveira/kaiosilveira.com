@@ -1,0 +1,132 @@
+.history-item-paragraph {
+  font-size: 16px;
+}
+
+.history-wrapper .triangle {
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  width: 30px;
+  height: 20px;
+}
+
+.history-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-item {
+  background-color: white;
+  color: black;
+  transition: all .2s ease-in-out;
+  margin: 20px 0;
+  font-size: 14px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #272626;
+}
+
+.history-item-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-item-title h2 {
+  padding: 10px;
+}
+
+.history-item-date {
+  background-color: #33cfc6;
+  color: #fff;
+  height: inherit;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #33cfc6;
+  padding: 10px 0;
+}
+
+.history-item h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.history-item:hover {
+  transform: scale(1.05);
+}
+
+@media(min-width: 768px) and (max-width: 1200px) {
+
+  .history-wrapper .triangle {
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    width: 20px;
+    height: 30px;
+  }
+
+  .history-item {
+    flex-direction: row;
+  }
+
+  .history-item-date {
+    width: 30%;
+    font-size: 40px;
+  }
+
+  .history-item-title {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .history-item-content {
+    width: 70%;
+  }
+
+  .project-info {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+}
+
+@media(min-width: 1200px) {
+
+  .history-wrapper .triangle {
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    width: 20px;
+    height: 30px;
+  }
+
+  .history-item {
+    flex-direction: row;
+  }
+
+  .history-item-date {
+    width: 20%;
+    font-size: 48px;
+  }
+
+  .history-item-title {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .history-item-content {
+    width: 80%;
+  }
+
+  .project-info {
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+}

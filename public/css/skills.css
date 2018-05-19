@@ -1,0 +1,108 @@
+.skill-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.skill-box {
+  text-align: center;
+  border: 1px solid #33cfc6;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.skill-box ul {
+  border-top: 1px solid #33cfc6;
+  transform-style: preserve-3d;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.front {
+  display: none;
+}
+
+.back ul {
+  margin: 0;
+  padding: 15px;
+  list-style: none;
+}
+
+@media(min-width:768px) {
+  .skill-boxes {
+    flex-direction: row;
+  }
+  .skill-box {
+    text-align: left;
+    width: 30%;
+  }
+  .skill-box h2 {
+    text-align: center;
+  }
+}
+
+@media(min-width: 1200px) {
+
+  .skill-item .fa-star, .skill-item .fa-star-o {
+    transition: all .5s ease-in-out;
+  }
+
+  .skill-item:hover {
+    color: #33cfc6;
+  }
+
+  .skill-item:hover .fa-star, .skill-item:hover .fa-star-o {
+    transform: rotate(360deg);
+  }
+
+  .flip-container {
+  	perspective: 1000px;
+  }
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+  .flip-container, .front, .back {
+  	width: 320px;
+  	height: 480px;
+  }
+
+  .flipper {
+  	transition: 0.6s;
+  	transform-style: preserve-3d;
+
+  	position: relative;
+  }
+
+  .front, .back {
+  	backface-visibility: hidden;
+
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  }
+
+  .flipper {
+    height: inherit;
+  }
+
+  .front {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  	z-index: 2;
+  	transform: rotateY(0deg);
+    font-size: 46px;
+  }
+
+  .back {
+  	transform: rotateY(180deg);
+  }
+
+}

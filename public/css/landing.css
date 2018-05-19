@@ -1,0 +1,88 @@
+.avatar {
+  width: 200px;
+  height: 250px;
+  border-radius: 3%;
+  display: block;
+  margin: auto;
+}
+
+.bg {
+  background: url(../img/family1.jpg);
+}
+
+.bg, .bg h1, .bg h2 {
+  color: #f2f2f2;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.opaque {
+  background-color: rgba(0,0,0,0.7);
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+}
+
+.intro-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 18px;
+}
+
+.icon-wrapper {
+  text-decoration: none;
+  margin: 2%;
+}
+
+.icon-wrapper:hover {
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-icon {
+  font-size: 30px;
+  margin: 2%;
+  color: #f2f2f2;
+}
+
+.curriculum-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.curriculum-box {
+  margin: 15px;
+}
+
+.curriculum-box p {
+  margin: 0;
+}
+
+.drive-link, .drive-link:hover {
+  font-size: 16px;
+  font-weight: bold;
+  color: #33cfc6;
+}

@@ -6,6 +6,6 @@ app.use(express.static('./public'));
 
 http
 .createServer(app)
-.listen(3000, function() {
+.listen(3003, function() {
   console.log('Server running at 8080');
 });

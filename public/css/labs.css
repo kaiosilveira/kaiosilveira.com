@@ -1,0 +1,53 @@
+.projects-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.project-topic {
+  font-weight: bold;
+}
+
+.project-title {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-box {
+  margin-top: 15px;
+  width: 80%;
+  padding: 15px;
+  background-color: white;
+  color: black;
+}
+
+@media(min-width: 769px) {
+  .project-box {
+    margin-top: 15px;
+    width: 44%;
+    padding: 15px;
+  }
+
+  .project-info {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media(min-width: 1201px) {
+  .projects-wrapper {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .project-box {
+    width: 45%;
+  }
+}

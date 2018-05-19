@@ -1,0 +1,21 @@
+footer {
+  padding: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #eee;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 15px;
+}
+
+footer a .icon, footer a .icon:hover, footer a .icon:visited {
+  color: black;
+}
+
+footer .icon {
+  font-size: 30px;
+  margin: 2%;
+}

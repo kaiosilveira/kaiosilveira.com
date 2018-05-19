@@ -1,0 +1,85 @@
+.reverse {
+  background-color: #272626;
+  color: #fff;
+}
+
+.reverse .paper-box-8dp {
+  box-shadow: none;
+}
+
+.triangle {
+  width: 20px;
+  height: 30px;
+  background-color: #33cfc6;
+  margin-right: 10px;
+  border: 1px solid #33cfc6;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  clip-path: polygon(0 0, 0% 100%, 100% 50%);
+}
+
+
+.section-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.alura-link, .alura-link:hover, .alura-link:visited {
+  color: #33cfc6;
+  text-decoration: none;
+}
+
+.link {
+  color: #33cfc6;
+  text-decoration: none;
+}
+
+.paper-box-8dp {
+  border: 1px solid #eee;
+  box-shadow: 4px 8px 8px #eee;
+  transition: all .2s ease-in-out;
+}
+
+.paper-box-8dp:hover {
+  transform: scale(1.05);
+}
+
+.bent {
+  margin: 50px 0;
+  padding: 50px 0;
+}
+
+.bent:last-child {
+  margin-bottom: 0;
+}
+
+.bent-3deg {
+  -ms-transform: skewY(3deg); /* IE 9 */
+  -webkit-transform: skewY(3deg); /* Safari */
+  transform: skewY(3deg); /* Standard syntax */
+}
+
+.bent-3deg .bent-content {
+  -ms-transform: skewY(-3deg); /* IE 9 */
+  -webkit-transform: skewY(-3deg); /* Safari */
+  transform: skewY(-3deg); /* Standard syntax */
+}
+
+.bent-minus-3deg {
+  -ms-transform: skewY(-3deg); /* IE 9 */
+  -webkit-transform: skewY(-3deg); /* Safari */
+  transform: skewY(-3deg); /* Standard syntax */
+}
+
+.bent-minus-3deg .bent-content {
+  -ms-transform: skewY(3deg); /* IE 9 */
+  -webkit-transform: skewY(3deg); /* Safari */
+  transform: skewY(3deg); /* Standard syntax */
+}
+
+.label {
+  padding: 5px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin: 5px;
+}
