@@ -2,7 +2,7 @@ var http = require('http');
 var express = require('express'),
   app = express();
 
-app.use(express.static('./public'));
+app.use(express.static('./dist'));
 
 http
 .createServer(app)
